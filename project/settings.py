@@ -88,6 +88,8 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    'http://159.89.98.254:1337',
+    'https://clother-react.herokuapp.com'
 ]
 
 

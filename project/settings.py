@@ -37,10 +37,10 @@ if PROD:
 else:
     DEBUG = True
 
-if PROD:
-    ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
-else:
-    ALLOWED_HOSTS = ['*']
+# if PROD:
+ALLOWED_HOSTS = ['*']
+# else:
+# ALLOWED_HOSTS = ['*']
 
 
 # Application definition

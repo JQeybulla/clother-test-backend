@@ -1,0 +1,5 @@
+env
+.env.prod
+.env.prod.db
+celery.log
+env_clother_test
